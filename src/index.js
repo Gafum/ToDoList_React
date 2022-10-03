@@ -8,7 +8,9 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      items: [],
+			items: [
+				{ id: 0, text: "first" }
+			],
     }
     this.adder = this.adder.bind(this)
     this.delete = this.delete.bind(this)
